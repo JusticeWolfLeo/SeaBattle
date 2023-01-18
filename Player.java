@@ -6,7 +6,7 @@ public class Player {
     Field field;
 
     public Player(String name, int score) { // конструктор класса
-        this.name = "Dima";
+        this.name = name;
         this.score = 0;
         shipList = new Ship[Field.countShips()];
     }
