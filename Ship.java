@@ -6,9 +6,9 @@ public class Ship {
     static String twodeck = "Двухпалубник";
     static String threedeck = "Трехпалубник";
     static String fourdeck = "Четырехпалубник";
-    private String name;
+    private Player name;
 
-    public Ship(byte shipSize, String shipTitle, String name) { // конструктор класса
+    public Ship(byte shipSize, String shipTitle, Player name) { // конструктор класса
         this.shipSize = shipSize;
         this.shipTitle = shipTitle;
         this.name = name;
@@ -19,7 +19,7 @@ public class Ship {
         this.name = name;
     }
 
-    public Ship(String shipTitle) {
+    public Ship(String shipTitle, Player player1) {
         this.shipTitle = shipTitle;
         this.name = name;
     }
